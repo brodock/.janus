@@ -1,3 +1,6 @@
 [submodule "vim-airline"]
 	path = vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "tabline.vim"]
+	path = tabline.vim
+	url = https://github.com/mkitt/tabline.vim.git
