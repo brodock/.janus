@@ -18,9 +18,11 @@ the name is essential).
 
 As this repository uses Git submodules, you need to type the following:
 
+```
   cd $HOME/.janus
   git submodule init
   git submodule update
+```
 
 After that, you need to merge the ".vimrc.after" located inside that
 folder with your current $HOME/.vimrc.after, or just copy my version if
@@ -38,6 +40,11 @@ What's inside?
 
 Here are the list of plugins:
 
-* tabline
 * airline
 * gitgutter
+
+Customizations:
+
+There are some more customizations like enabling mouse support, ctags
+support for rubygems (to be used with Guard), some pre-selected themes,
+with monokay as default.
