@@ -1,13 +1,22 @@
-"color tomorrow-night-bright
 color molokai
 set mouse=a
-set tabstop=4
-set shiftwidth=2
-set softtabstop=2
+
+" Ctags for Rubygems
 set tags+=gems.tags
 
 "MacOS X features:
-set clipboard=unnamed
+if has("mac") || has("macunix") || has("gui_macvim")
+    set clipboard=unnamed
+endif
+
+"
+" Language specific settings
+"
+
+" Tab and identation
+autocmd Filetype php setlocal ts=4 sw=4 sts=4
+autocmd Filetype sh setlocal ts=4 sw=4 sts=4
+autocmd Filetype vim setlocal ts=4 sw=4 sts=4
 
 "Strip trailling whitespace on save
 fun! <SID>StripTrailingWhitespaces()
