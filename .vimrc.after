@@ -7,6 +7,7 @@ set tags+=gems.tags
 "MacOS X features:
 if has("mac") || has("macunix") || has("gui_macvim")
     set clipboard=unnamed
+    color tomorrow-night-bright
 endif
 
 "
