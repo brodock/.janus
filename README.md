@@ -30,8 +30,15 @@ you haven't made any customization yet.
 
 If you want to have full support from airline plugin, you should patch
 your current terminal font. I've included *PowerlineSymbols.otf* and *10-powerline-symbols.conf*
-to speedup the process, but you should follow instructions here: 
+to speedup the process, but you should follow instructions here:
 https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
+
+You can also find pre-patched fonts here:
+https://github.com/powerline/fonts
+
+And there is a different strategy for fallback symbols without patching
+fonts explained here:
+https://github.com/gabrielelana/awesome-terminal-fonts
 
 Happy coding :)
 
