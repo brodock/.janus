@@ -10,6 +10,9 @@
 [submodule "powerline-fonts"]
 	path = powerline-fonts
 	url = https://github.com/Lokaltog/powerline-fonts
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround.git
 [submodule "powerline-monaco"]
 	path = powerline-monaco
 	url = https://gist.github.com/229a0729ec79c6fcec81.git
