@@ -1,8 +1,14 @@
 color molokai
 set mouse=a
 
+" Easytags
+set tags=./tags;
+let g:easytags_dynamic_files = 1
+let g:easytags_async = 1
+
 " Ctags for Rubygems
 set tags+=gems.tags
+
 
 "MacOS X features:
 if has("mac") || has("macunix") || has("gui_macvim")

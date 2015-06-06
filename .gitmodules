@@ -16,3 +16,9 @@
 [submodule "powerline-monaco"]
 	path = powerline-monaco
 	url = https://gist.github.com/229a0729ec79c6fcec81.git
+[submodule "vim-easytags"]
+	path = vim-easytags
+	url = https://github.com/xolox/vim-easytags.git
+[submodule "vim-misc"]
+	path = vim-misc
+	url = https://github.com/xolox/vim-misc.git
