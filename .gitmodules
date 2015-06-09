@@ -22,3 +22,6 @@
 [submodule "vim-misc"]
 	path = vim-misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "editorconfig-vim"]
+	path = editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
